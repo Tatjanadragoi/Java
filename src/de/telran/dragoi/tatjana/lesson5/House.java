@@ -1,22 +1,19 @@
 package de.telran.dragoi.tatjana.lesson5;
-
 public class House {
-    public int lenght, width, hight;
-    public String adress, owner;
+    int hight;
+    String owner;
+    private String adress;
+    private int width;
+    private int lenght;
 
-    public House(int hight, String owner) {
+    public House( int hight, String owner, String adress, int width, int lenght) {
         this.hight = hight;
-        this.owner = owner;
-    }
-    private House (String adress, int width, int lenght) {
+        this.lenght = lenght;
         this.adress = adress;
         this.width = width;
-        this.lenght = lenght;
     }
-}
 
 
 
-
-
+    }
 
