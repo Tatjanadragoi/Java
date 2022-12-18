@@ -1,0 +1,19 @@
+package lesson10;
+
+public class test2 {
+    public static void main(String[] args) {
+        int width = 10;
+        int high = 10;
+        for (int i = 0; i < high; i++) {
+            for (int j = 0; j < width; j++) {
+                if (j < (high - i)) {
+                    System.out.print("  ");
+                } else {
+                    System.out.print("* ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+}
